@@ -5,6 +5,8 @@ type: "about"
 layout: "about"
 ---
 
+<img align="right" src="/medias/pic/1.jpg" width="60%" height="50%">
+
 
 # 教育经历
 * <b>本科 计算机科学与技术</b>
