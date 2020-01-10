@@ -30,7 +30,10 @@
 body {
     background-color: #eaeaea;
     margin: 0;
-    color: #34495e;
+    /*color: #34495e;*/
+    color: #161b3d;
+    font-size: 1.1875rem;
+    line-height: 1.9375rem;
 }
 
 h1 {
@@ -75,8 +78,10 @@ h6 {
 }
 
 p {
-    font-size: 1rem;
-    line-height: 1.5rem;
+    /*font-size: 1rem;*/
+    /*line-height: 1.5rem;*/
+    font-size: 1.1875rem;
+    line-height: 1.9375rem;
 }
 
 hr {
@@ -950,8 +955,10 @@ article .article-tags .chip {
 
 #articleContent p {
     margin: 2px 2px 10px;
-    font-size: 1.05rem;
-    line-height: 1.85rem;
+    /*font-size: 1.05rem;*/
+    /*line-height: 1.85rem;*/
+    font-size: 1.1875rem;
+    line-height: 1.9375rem;
 }
 
 #articleContent blockquote p {
