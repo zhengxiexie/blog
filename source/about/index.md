@@ -7,6 +7,9 @@ layout: "about"
 
 <img style="position:relative;right:100px;float:right" src="/medias/pic/2.jpg" width="15%" height="48%">
 
+# 个人简介
+郑勰（xié），1989 年出生，来自湖北宜昌，英语听说读写良好。
+先后在百度、小米、腾讯等一线互联网公司工作过，熟悉主流技术，行业经验 8 年。
 
 # 教育经历
 * <b>本科 计算机科学与技术</b>
