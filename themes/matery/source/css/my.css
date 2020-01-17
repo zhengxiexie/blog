@@ -1,9 +1,19 @@
 /* Here is your custom css styles. */
 @font-face{
-    font-family: 'NotoSerifSC-Regular.otf';
-    src: url('../font/NotoSerifSC-Regular.otf');
+    /*font-family: 'NotoSerifSC-Regular.otf';*/
+    /*src: url('../font/NotoSerifSC-Regular.otf');*/
+    /*font-family: 'xiaomi_lanting_Pro.ttf';*/
+    /*src: url('../font/xiaomi_lanting_Pro.ttf');*/
+    /*font-family: 'gotham-rounded-book.otf';*/
+    /*src: url('../font/gotham-rounded-book.otf');*/
+    /*font-family: 'SF-Pro-Rounded-Medium.otf';*/
+    /*src: url('../font/SF-Pro-Rounded-Medium.otf');*/
+    /*font-family: 'LucidaGrande.ttc';*/
+    /*src: url('../font/LucidaGrande.ttc');*/
+    font-family: 'MI Lan Pro_Light.TTF';
+    src: url('../font/MI Lan Pro_Light.TTF');
 }
 
 body{
-    font-family: 'NotoSerifSC-Regular.otf';
+    font-family: 'MI Lan Pro_Light.TTF';
 }
