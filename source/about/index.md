@@ -8,8 +8,11 @@ layout: "about"
 <img style="position:relative;right:100px;float:right" src="/medias/pic/2.jpg" width="15%" height="48%">
 
 # 个人简介
-郑勰（xié），1989 年出生，来自湖北宜昌，英语听说读写良好。
-先后在百度、小米、腾讯等一线互联网公司工作过，熟悉主流技术，行业经验 8 年。
+姓名：郑勰（xié）
+生日：1989.5.12
+中英文听说读写良好[试听](https://music.163.com/dj?id=2059907935&userid=52336738)。
+先后在百度、小米、腾讯等一线互联网公司工作，熟系互联网主流技术，行业经验 8 年。
+喜欢分布式技术，撰写的文章《浅谈 CAP 和 Paxos 共识算法》曾入选腾讯对外技术工程文集[链接](https://mp.weixin.qq.com/s/Fj4zERz9PEuNumd_SI0bEA)。
 
 # 教育经历
 * <b>本科 计算机科学与技术</b>
@@ -62,3 +65,4 @@ zhengxiexie
 373618217
 * <b>个人博客</b>
 http://zhengxiexie.club
+
