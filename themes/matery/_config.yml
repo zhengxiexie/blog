@@ -165,7 +165,7 @@ text:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatars/avatar.jpg
-  career: 浙江工业大学大学 | 计算机科学与技术 | 软件工程
+  career: 浙江工业大学 | 计算机科学与技术 | 软件工程
 #  introduction: 我是华东师范大学计算机科学与技术专业2018级硕士研究生。直研进入本校计算机系攻读硕士，研究方向是深度学习与自然语言处理。我们实验室是AntNLP，欢迎大家报考！
 
 # config my projects informations in about page.
@@ -205,9 +205,9 @@ mySkills:
     Python:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
       percent: 80%
-#    Pytorch:
-#      background: 'linear-gradient(to right, #951213 0%, #961117 100%)'
-#      percent: 75%
+    Golang:
+      background: 'linear-gradient(to right, #951213 0%, #961117 100%)'
+      percent: 75%
 #    Dynet:
 #      background: 'linear-gradient(to right, #F12F12 0%, #F6464F 100%)'
 #      percent: 75%
