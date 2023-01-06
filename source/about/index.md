@@ -8,11 +8,13 @@ layout: "about"
 <img style="position:relative;right:100px;float:right" src="/medias/pic/2.jpg" width="15%" height="48%">
 
 # 个人简介
-姓名：郑勰（xié）
+中文名：郑勰（xié）
+英文名：Ben
 生日：1989.5.12
 中英文听说读写良好[试听](https://music.163.com/dj?id=2059907935&userid=52336738)。
-先后在百度、小米、腾讯等一线互联网公司工作，熟系互联网主流技术，行业经验 8 年。
+先后在百度、小米、腾讯、VMware等一线互联网公司工作，熟系互联网主流技术，行业经验 10 年。
 喜欢分布式技术，撰写的文章《浅谈 CAP 和 Paxos 共识算法》曾入选腾讯对外技术工程文集[链接](https://mp.weixin.qq.com/s/Fj4zERz9PEuNumd_SI0bEA)。
+热爱创新，在VMware发布专利《VMWI609.WO-NAMED PORT SECURITY POLICY--A MORE FLEXIBLE TRAFFIC ISOLATION SOLUTION》。
 
 # 教育经历
 * <b>本科 计算机科学与技术</b>
@@ -20,7 +22,11 @@ layout: "about"
 2008/09 - 2012/06
 
 # 公司经历
-### 2019.4 - 今
+### 2021.4 - 至今
+* <b>VMware JIL in vSphere k8s drivers  Member of Technical Staff</b>
+1. 负责公司核心产品 vSphere、NSX-T网络组件的开发，尤其是K8S和NSX-T互通组件CNI [nsx-operator](https://github.com/vmware-tanzu/nsx-operator.git)的架构设计。
+
+### 2019.4 - 2021.4
 * <b>腾讯 腾讯云网络产品组 高级开发工程师</b>
 1. 负责腾讯云私有云网络控制器层面的后台开发。私有网络（Virtual Private Cloud，VPC）是基于腾讯云构建的专属云上网络空间，为腾讯云上的资源提供网络服务，不同私有网络间完全逻辑隔离。可以自定义网络环境、路由表、安全策略等；同时，私有网络支持多种方式连接 Internet、连接其他 VPC、连接本地数据中心，助力轻松部署云上网络。私有云网络是整个腾讯云网络的核心，控制器负责下发数十万台物理机和网关流表。目前腾讯云在全球 25 个地理区域内运营着 53 个可用区，且在计算和网络领域已经迈入“双百时代”（全网服务器总数量突破100万台，带宽峰值突破100T），如何高效、弹性、成本低的实现网络资源的互联互通，是一个充满挑战的课题。控制器层面采用 Mysql 存储流表，zookeeper 作为中间件主动通知物理机和网关收发数据，采用自定义协议或者 protobuf 协议和 dpdk 或者 kernel 数据面做数据互通。
 2. 负责基础网络安全组控制层面的后台开发。安全组即虚拟防火墙，具备有状态的数据包过滤功能，用于设置云服务器、负载均衡、云数据库等实例的网络访问控制，控制实例级别的出入流量，是重要的网络安全隔离手段。同私有云网络控制器一样，也是采用 zookeeper 作为中间件通知安全策略，物理机用内核 netfilter framework封包过滤。
