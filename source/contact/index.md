@@ -22,6 +22,6 @@ layout: "contact"
 
 例如我的博客友链，大家可以加到自己博客里哦：
 * **名称：**zhengxiexie
-* **地址：**https://zhengxiexie.club
+* **地址：**https://zhengxiexie.github.io
 * **简介：**Linux Python
-* **头像：**https://zhengxiexie.club/medias/avatars/avatar.jpg
+* **头像：**https://zhengxiexie.github.io/medias/avatars/avatar.jpg
