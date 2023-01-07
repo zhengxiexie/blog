@@ -1,0 +1,25 @@
+<style type="text/css">
+    /* don't remove. */
+    .about-cover {
+        height: 75vh;
+    }
+</style>
+
+<%- partial('_partial/bg-cover') %>
+
+<main class="content">
+    <div id="aboutme" class="container about-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-content article-card-content">
+                    <div class="title center-align" data-aos="zoom-in-up">
+                        <i class="fa fa-address-book"></i>&nbsp;&nbsp;我的简历
+                    </div>
+                    <div id="articleContent" data-aos="fade-up">
+                        <%- page.content %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
