@@ -1,21 +1,9 @@
 /* Here is your custom css styles. */
 @font-face{
-    /*font-family: 'NotoSerifSC-Regular.otf';*/
-    /*src: url('../font/NotoSerifSC-Regular.otf');*/
-    /*font-family: 'xiaomi_lanting_Pro.ttf';*/
-    /*src: url('../font/xiaomi_lanting_Pro.ttf');*/
-    /*font-family: 'gotham-rounded-book.otf';*/
-    /*src: url('../font/gotham-rounded-book.otf');*/
-    /*font-family: 'SF-Pro-Rounded-Medium.otf';*/
-    /*src: url('../font/SF-Pro-Rounded-Medium.otf');*/
-    /*font-family: 'LucidaGrande.ttc';*/
-    /*src: url('../font/LucidaGrande.ttc');*/
-    /*font-family: 'MI Lan Pro_Light.TTF';*/
-    /*src: url('../font/MI Lan Pro_Light.TTF');*/
-    font-family: 'GT-Super-Text-Book.otf';
-    src: url('../font/GT-Super-Text-Book.otf');
+    font-family: 'LXGWWenKai-Regular.ttf';
+    src: url('../font/LXGWWenKai-Regular.ttf');
 }
 
 body{
-    font-family: 'GT-Super-Text-Book.otf';
+    font-family: 'LXGWWenKai-Regular.ttf';
 }
