@@ -23,7 +23,12 @@ date: 2023-01-07 21:50:07
 # 公司经历
 ### 2021.4 - 至今
 * <b>VMware JIL in vSphere k8s drivers  Member of Technical Staff</b>
-1. 负责公司核心产品 vSphere、NSX-T网络组件的开发，尤其是K8S和NSX-T互通组件CNI [nsx-operator](https://github.com/vmware-tanzu/nsx-operator.git)的架构设计。
+1. 负责并主导nsx-operator的开发和架构设计,这是一个开源的Kubernetes Operator项目,用于连接VMware NSX-T网络与Kubernetes集群,实现VM和Pod的统一网络策略管理。项目包含多个Kubernetes控制器,管理SecurityPolicy、VPC、Subnet、SubnetPort、NetworkInfo、IPAddressAllocation等多种自定义资源，实现核心功能和Bug修复。
+2. 设计并实现SecurityPolicy CRD,扩展Kubernetes NetworkPolicy以支持NSX-T分布式防火墙规则,具备基于优先级的策略执行、VM/Pod选择器与标签匹配、多种动作(Allow/Drop/Reject)、IP地址块和CIDR规则、命名端口支持等高级功能。实现与NSX-T API集成以创建分布式防火墙规则,并将实现状态同步回Kubernetes。
+3. 实现VPC网络功能,包括子网管理(Subnet、SubnetSet、SubnetBinding)、IP地址分配与DHCP集成、自定义网关和DHCP服务器地址配置、子网连接状态管理、跨命名空间共享子网功能、以及VPC流量路由的静态路由支持。
+4. 开发健康监控系统,包含资源清单同步检查、NSX-T资源实现状态跟踪、用于验证VPC网络、安全策略和共享子网功能的完整E2E测试框架,并实现资源清理操作的详细日志和调试能力。
+5. 构建健壮的Kubernetes控制器框架,包括事件处理器、依赖监视器、CRD变更的Webhook验证、资源缓存和状态管理、以及具备自动协调和重试机制的错误处理。
+6. 贡献专利创新:《VMWI609.WO - 命名端口安全策略:更灵活的流量隔离解决方案》,该功能允许安全策略引用应用程序定义的端口名称,而非硬编码的端口号,从而实现更易维护的网络配置。
 
 ### 2019.4 - 2021.4
 * <b>腾讯 腾讯云网络产品组 高级开发工程师</b>

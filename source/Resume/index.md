@@ -42,7 +42,12 @@ Fast learning ability
 
 *   **VMware JIL in vSphere k8s drivers Member of Technical Staff**
 
-1.  Responsible for the development of the company’s core products vSphere, NSX-T network components, especially the architecture design of K8S and NSX-T interoperability component CNI [nsx-operator](https://github.com/vmware-tanzu/nsx-operator.git).
+1.  Led the development and architecture design of nsx-operator, an open-source Kubernetes operator that bridges VMware NSX-T networking with Kubernetes clusters, enabling unified network policy management for both VMs and Pods. The project consists of various Kubernetes controllers managing custom resources including SecurityPolicy, VPC, Subnet, SubnetPort, NetworkInfo, and IPAddressAllocation.
+2.  Designed and implemented SecurityPolicy CRD that extends Kubernetes NetworkPolicy to support NSX-T distributed firewall rules with advanced features including priority-based policy enforcement, VM/Pod selector with label-based targeting, multiple actions (Allow/Drop/Reject), IP blocks and CIDR-based rules, and named port support. The implementation integrates with NSX-T API to create distributed firewall rules and synchronizes realization state back to Kubernetes.
+3.  Implemented VPC networking features including subnet management (Subnet, SubnetSet, SubnetBinding), IP address allocation with DHCP integration, custom gateway and DHCP server address configuration, subnet connectivity state management, shared subnet functionality for cross-namespace networking, and static route support for VPC traffic routing.
+4.  Developed health monitoring system with inventory synchronization checks, realized state tracking for NSX-T resources, and comprehensive E2E test framework for validating VPC networking, security policies, and shared subnet functionality. Implemented sophisticated logging and debugging capabilities for resource cleanup operations.
+5.  Built robust Kubernetes controller framework with event handlers, dependency watchers, webhook validation for CRD mutations, resource caching and state management, and error handling with automatic reconciliation and retry mechanisms.
+6.  Contributed to patent innovation: *VMWI609.WO - Named Port Security Policy: A More Flexible Traffic Isolation Solution*, enabling security policies to reference application-defined port names instead of hardcoded port numbers for more maintainable network configurations.
 
 ### 2019.4 - 2021.4
 
