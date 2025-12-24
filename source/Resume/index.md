@@ -13,7 +13,7 @@ English Name: Ben
 Birthday: 1989.5.12  
 Good at English and Chinese. [listen](https://music.163.com/dj?id=2059907935&userid=52336738).  
 Worked in Baidu, Xiaomi, Tencent, VMware, and other top-tier Internet companies, and is familiar with mainstream Internet technologies.  
-Has 10 years of experience.  
+Has 14 years of experience.  
 Like distributed technologies, my paper *A Brief Discussion on CAP and Paxos Consensus Algorithm* was selected as one of Tencent's external technical engineering anthologies. [link](https://mp.weixin.qq.com/s/Fj4zERz9PEuNumd_SI0bEA).  
 Passionate about innovation and published patents at VMware *VMWI609.WO-NAMED PORT SECURITY POLICY–A MORE FLEXIBLE TRAFFIC ISOLATION SOLUTION*.
 
@@ -42,7 +42,7 @@ Fast learning ability
 
 *   **VMware JIL in vSphere k8s drivers Member of Technical Staff**
 
-1.  Led the development and architecture design of nsx-operator, an open-source Kubernetes operator that bridges VMware NSX-T networking with Kubernetes clusters, enabling unified network policy management for both VMs and Pods. The project consists of various Kubernetes controllers managing custom resources including SecurityPolicy, VPC, Subnet, SubnetPort, NetworkInfo, and IPAddressAllocation.
+1.  Led the development and architecture design of [nsx-operator](https://github.com/vmware-tanzu/nsx-operator.git), an open-source Kubernetes operator that bridges VMware NSX-T networking with Kubernetes clusters, enabling unified network policy management for both VMs and Pods. The project consists of various Kubernetes controllers managing custom resources including SecurityPolicy, VPC, Subnet, SubnetPort, NetworkInfo, and IPAddressAllocation.
 2.  Designed and implemented SecurityPolicy CRD that extends Kubernetes NetworkPolicy to support NSX-T distributed firewall rules with advanced features including priority-based policy enforcement, VM/Pod selector with label-based targeting, multiple actions (Allow/Drop/Reject), IP blocks and CIDR-based rules, and named port support. The implementation integrates with NSX-T API to create distributed firewall rules and synchronizes realization state back to Kubernetes.
 3.  Implemented VPC networking features including subnet management (Subnet, SubnetSet, SubnetBinding), IP address allocation with DHCP integration, custom gateway and DHCP server address configuration, subnet connectivity state management, shared subnet functionality for cross-namespace networking, and static route support for VPC traffic routing.
 4.  Developed health monitoring system with inventory synchronization checks, realized state tracking for NSX-T resources, and comprehensive E2E test framework for validating VPC networking, security policies, and shared subnet functionality. Implemented sophisticated logging and debugging capabilities for resource cleanup operations.
